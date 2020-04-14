@@ -1,0 +1,25 @@
+{
+  "name": "rocket-react-redux",
+  "version": "0.0.1",
+  "description": "Alternative React binding for Redux made in Typescript",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "yarn run publish",
+    "test:eslint": "eslint --ext .ts,.tsx ./",
+    "test:lint": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@types/react": "^16.9.32",
+    "@types/redux": "^3.6.0",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.4",
+    "react": "^16.13.1",
+    "redux": "^4.0.5",
+    "typescript": "^3.8.3"
+  }
+}
