@@ -1,3 +1,6 @@
-export { useDispatch } from "./hooks/useDispatch";
-export { useSelector } from "./hooks/useSelector";
-export { Provider } from "./components/Provider";
+/** @format */
+
+export { useDispatch } from './hooks/useDispatch';
+export { useSelector } from './hooks/useSelector';
+export { useStore } from './hooks/useStore';
+export { Provider } from './components/Provider';
