@@ -1,7 +1,7 @@
 /** @format */
 
-import { useContext, useRef, useEffect, useReducer, useMemo } from "react";
-import { StoreContext } from "../components/Provider";
+import { useContext, useRef, useEffect, useReducer, useMemo } from 'react';
+import { StoreContext } from '../components/Provider';
 
 const forcedReducer = (state?: any): any => !state;
 const useForceUpdate = (): any => useReducer(forcedReducer, false)[1];
@@ -19,13 +19,13 @@ export const useStore = (): any => {
         return target[name];
       },
     }),
-    []
+    [],
   );
   useEffect(() => {
     const callback = (): void => {
       const nextState = store.getState();
       const changed = Object.keys(used.current).find(
-        (key) => state.current[key] !== nextState[key]
+        key => state.current[key] !== nextState[key],
       );
       if (changed) {
         state.current = nextState;

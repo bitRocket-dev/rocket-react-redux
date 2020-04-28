@@ -1,6 +1,6 @@
 /** @format */
 
-import { useStore } from "../useStore";
+import { useStore } from '../useStore';
 
 export function useSelector<T>(selector: (store: any) => T): T {
   const store = useStore();

@@ -1,6 +1,6 @@
 {
   "name": "rocket-react-redux",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Alternative React binding for Redux made in Typescript",
   "main": "index.js",
   "scripts": {

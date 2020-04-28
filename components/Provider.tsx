@@ -1,7 +1,7 @@
 /** @format */
 
-import React, { createContext, FC } from "react";
-import { Store } from "redux";
+import React, { createContext, FC } from 'react';
+import { Store } from 'redux';
 
 export const StoreContext = createContext({});
 

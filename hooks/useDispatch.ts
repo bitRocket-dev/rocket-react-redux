@@ -1,8 +1,8 @@
 /** @format */
 
-import { Store } from "redux";
-import { useContext } from "react";
-import { StoreContext } from "../Provider";
+import { Store } from 'redux';
+import { useContext } from 'react';
+import { StoreContext } from '../components/Provider';
 
 interface Params {
   type: string;
